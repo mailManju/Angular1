@@ -1,5 +1,6 @@
-# Angular1
-Interceptor
+# Interceptor
+ The $http service of AngularJS allows us to communicate with a backend and make HTTP requests. There are cases where we want to capture every request and manipulate it before sending it to the server. Other times we would like to capture the response and process it before completing the call. Global http error handling can be also a good example of such need. Interceptors are created exactly for such cases. This article will introduce AngularJS interceptors and will provide some useful examples.
+
   ```JavaScript
 'use strict';
 
